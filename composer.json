@@ -1,0 +1,18 @@
+{
+	"name": "miniframework",
+	"require": {
+		"php": ">= 7.0"
+	},
+	"authors": [
+		{
+			"name": "Victor Gabriel",
+			"email": "victorgabrielrabelo4044@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
